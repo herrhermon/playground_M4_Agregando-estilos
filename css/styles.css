@@ -2,21 +2,45 @@ body{
    
     font-family: Arial; /* Determina qual a fonte da tag */
 }
-p{
+#p1{
     
     font-size: 14px; /* Determina qual o tamanho da fonte */
     font-weight: bold;/* Determina o "peso" da fonte( Linha fina, linha grossa, negrito */
     text-align: justify;/* Configura o alinhamento do texto: Centralizado, Justificado, a esquerda ou direita */
     line-height: 20px; /* Configura espaçamento entre linhas. Precisa ser maior que a fonte, senão terá sobreposição de linhas */
+    background-color: tomato;
+}
+#p2{
+    font-size: 14px; /* Determina qual o tamanho da fonte */
+    background-repeat: repeat-x;
+    font-weight: bold;/* Determina o "peso" da fonte( Linha fina, linha grossa, negrito */
+    text-align: justify;/* Configura o alinhamento do texto: Centralizado, Justificado, a esquerda ou direita */
+    line-height: 14px; /* Configura espaçamento entre linhas. Precisa ser maior que a fonte, senão terá sobreposição de linhas */
+    /* Para acessar a pasta de imagens tive que voltar uma pasta, pq estamos a partir da pasta CSS, usando ../ */
+    background-image: url(../img/depositphotos_69076619-stock-photo-wooden-table-at-sunset-beach.jpg)
+
+}
+#p3{
+    
+    font-size: 14px; /* Determina qual o tamanho da fonte */
+    font-weight: bold;/* Determina o "peso" da fonte( Linha fina, linha grossa, negrito */
+    text-align: justify;/* Configura o alinhamento do texto: Centralizado, Justificado, a esquerda ou direita */
+    line-height: 40px; /* Configura espaçamento entre linhas. Precisa ser maior que a fonte, senão terá sobreposição de linhas */
+    background-color: sandybrown;
+    opacity: 0.5;/* Determina o nivel de transparencia para todo o elemento(não somente background,até mesmo com imagens */
 }
 
 h1{
     /* Para mudança do texto - Consegue transformar tudo em maiusculo(uppercase), tudo minusculo(lowercase), Transformar todas as primeiras letras em maiusculas de cada palavra(capitalize),etc */
     text-transform: uppercase;
     text-align: center;
+    /* color:blue;
+    color: rgb(0,0,255) */
+    color: #0000ff; 
 }
 
 h2{
     font-style: italic;
     text-align: right;
+    color:green;
 }
