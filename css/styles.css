@@ -1,0 +1,22 @@
+body{
+   
+    font-family: Arial; /* Determina qual a fonte da tag */
+}
+p{
+    
+    font-size: 14px; /* Determina qual o tamanho da fonte */
+    font-weight: bold;/* Determina o "peso" da fonte( Linha fina, linha grossa, negrito */
+    text-align: justify;/* Configura o alinhamento do texto: Centralizado, Justificado, a esquerda ou direita */
+    line-height: 20px; /* Configura espaçamento entre linhas. Precisa ser maior que a fonte, senão terá sobreposição de linhas */
+}
+
+h1{
+    /* Para mudança do texto - Consegue transformar tudo em maiusculo(uppercase), tudo minusculo(lowercase), Transformar todas as primeiras letras em maiusculas de cada palavra(capitalize),etc */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    font-style: italic;
+    text-align: right;
+}
